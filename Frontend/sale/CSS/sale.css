@@ -1,0 +1,95 @@
+#about-container {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    width: 100%;
+    padding: 115px;
+}
+
+body {
+    background-color: #222222;
+}
+
+#carouselExampleControls {
+    background-color: #222222;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.logo {
+    margin-top: -17px;
+
+}
+
+#footerlogo {
+    width: 310px;
+    margin-bottom: -27px;
+}
+
+.social-menu {
+    text-align: left;
+    margin-left: 70px;
+}
+#paragraafFooter {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#paragraafFooterEmail {
+    margin-left: auto;
+}
+.payment {
+    margin-left: auto;
+}
+.icon-profile {
+    margin-right: -11px;
+}
+
+.cart-dropdown{
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 250px;
+    z-index: 1;
+    transform: translateX(-80%);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 30px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}

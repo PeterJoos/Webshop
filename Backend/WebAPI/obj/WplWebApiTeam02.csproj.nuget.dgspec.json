@@ -1,0 +1,93 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\School\\Webshop\\Backend\\WplWebApiTeam02\\WplWebApiTeam02.csproj": {}
+  },
+  "projects": {
+    "E:\\School\\Webshop\\Backend\\WPLClassLibTeam02\\ClassLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\School\\Webshop\\Backend\\WPLClassLibTeam02\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "E:\\School\\Webshop\\Backend\\WPLClassLibTeam02\\ClassLibrary.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\School\\Webshop\\Backend\\WplWebApiTeam02\\WplWebApiTeam02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\School\\Webshop\\Backend\\WplWebApiTeam02\\WplWebApiTeam02.csproj",
+        "projectName": "WplWebApiTeam02",
+        "projectPath": "E:\\School\\Webshop\\Backend\\WplWebApiTeam02\\WplWebApiTeam02.csproj",
+        "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
+        "outputPath": "E:\\School\\Webshop\\Backend\\WplWebApiTeam02\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "E:\\School\\Webshop\\Backend\\WPLClassLibTeam02\\ClassLibrary.csproj": {
+                "projectPath": "E:\\School\\Webshop\\Backend\\WPLClassLibTeam02\\ClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

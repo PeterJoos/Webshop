@@ -1,0 +1,177 @@
+#about-container {
+    text-align: center;
+    color: white;
+    background-color: #222222;
+    width: 100%;
+    padding: 115px;
+}
+
+body {
+    background-color: #222222;
+}
+
+#carouselExampleControls {
+    background-color: #222222;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+.logo {
+    margin-top: -17px;
+
+}
+
+#footerlogo {
+    width: 310px;
+    margin-bottom: -27px;
+}
+
+.social-menu {
+    text-align: left;
+    margin-left: 70px;
+}
+#paragraafFooter {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#paragraafFooterEmail {
+    margin-left: auto;
+}
+.payment {
+    margin-left: auto;
+}
+.icon-profile {
+    margin-right: -11px;
+}
+
+.cart-dropdown{
+    display: inline-block;
+}
+
+.dropdown {
+    position: relative;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 250px;
+    z-index: 1;
+    transform: translateX(-80%);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 30px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-size: 24px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+
+
+/*----------------CART-------------------*/
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.products-container ion-icon {
+    font-size: 25px;
+    color: blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header{
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title{
+    width: 45%;
+}
+
+.price {
+    width: 15%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.quantity{
+    width: 30%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle{
+    width: 40%;
+}
+
+.basketTotal{
+    width: 10%;
+}

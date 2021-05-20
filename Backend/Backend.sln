@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{91B2C6F3-C7A3-4E78-92BA-CDB7341FDD63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFWebshop", "WPFWebshop\WPFWebshop.csproj", "{9CB795BC-A74D-4048-9F1C-82A0EF6E10B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "ClassLibrary\ClassLibrary.csproj", "{41216236-C9E7-42D0-A7AC-23E6250B9883}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B2C6F3-C7A3-4E78-92BA-CDB7341FDD63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B2C6F3-C7A3-4E78-92BA-CDB7341FDD63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B2C6F3-C7A3-4E78-92BA-CDB7341FDD63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B2C6F3-C7A3-4E78-92BA-CDB7341FDD63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB795BC-A74D-4048-9F1C-82A0EF6E10B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB795BC-A74D-4048-9F1C-82A0EF6E10B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB795BC-A74D-4048-9F1C-82A0EF6E10B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB795BC-A74D-4048-9F1C-82A0EF6E10B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41216236-C9E7-42D0-A7AC-23E6250B9883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41216236-C9E7-42D0-A7AC-23E6250B9883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41216236-C9E7-42D0-A7AC-23E6250B9883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41216236-C9E7-42D0-A7AC-23E6250B9883}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10CC2C6C-1AA4-440A-BFAF-61ABB57A61BB}
+	EndGlobalSection
+EndGlobal
